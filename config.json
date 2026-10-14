@@ -1,0 +1,163 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Moonlight II Italic",
+    "workbench.iconTheme": "helium-icon-theme",
+    "helium-icon-theme.folders.color": "#42a5f5",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "underline",
+    "editor.cursorWidth": 18,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'Cascadia Code'",
+    "markdown.preview.fontFamily": "'Cascadia Code'",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "git.autofetch": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "githubPullRequests.fileListLayout": "flat",
+    "[scss]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.wordWrap": "wordWrapColumn",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true,
+        "javascript": true
+    },
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "wallaby.startAutomatically": true,
+    "redhat.telemetry.enabled": true,
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.formatOnPaste": true, // Formatea el código al pegarlo
+    // "editor.formatOnSave": true, // Formatea el código al guardar
+    "editor.formatOnType": true, // Formatea una línea después de escribirla
+    "editor.detectIndentation": true, // Activar las líneas de indentación
+    "editor.folding": false, // Elimina el espaciado
+    "editor.glyphMargin": true, // Elimina el margen izquierdo (Se usa principalmente para depurar)
+    "editor.matchBrackets": "always", // resaltado de los corchetes
+    "editor.colorDecorators": false, // Elimina los recuadros de color
+    "files.trimFinalNewlines": true, // Remueve las líneas extras al final del archivo
+    "files.insertFinalNewline": true, // Inserta una línea al final del archivo
+    "files.trimTrailingWhitespace": true, // Remueve los espacios extras al final de una línea
+    "workbench.colorCustomizations": { // Remplaza los colores del editor
+        "statusBar.background": "#FFD166", // Cambia el color de fondo de la barra de status
+        "statusBar.foreground": "#282B39" // Cambia el color del primer plano de la barra de status
+    },
+    "typescript.suggest.paths": false, // Desactiva el autocompletado predeterminado en TypeScript
+    "javascript.suggest.paths": false, // Desactiva el autocompletado predeterminado en JavaScript
+    "prettier.arrowParens": "always", // Para utilizar ( ) en funciones flecha con un solo parámetro
+    "prettier.bracketSpacing": true, // Deja espacios entre los corchetes { ... }
+    "prettier.printWidth": 85, // Especifica la longitud máxima de las líneas del código
+    "prettier.semi": true, // Define el punto y coma al final de las declaraciones
+    "prettier.singleQuote": false, // Define comillas dobles para el código
+    "prettier.tabWidth": 2, // Específica el número de espacios para la indentación
+    "prettier.useTabs": false, // Desactiva la indentación con tabulaciones
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "html"
+    ],
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".ts",
+            "html"
+        ]
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true,
+        "source.fixAll": true
+    },
+    "ponicode.token": "b98cb86a-1648-47b0-8d94-469b9d4975fa",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "editor.guides.indentation": false,
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "githubPullRequests.pullBranch": "never",
+    "git.mergeEditor": false,
+    "editor.linkedEditing": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "git.suggestSmartCommit": false,
+    "editor.fontFamily": "'Victor Mono'",
+    "git.ignoreRebaseWarning": true,
+    "[css]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.env.linux": {
+        "path": "/home/dannynavas/.console-ninja/.bin:/home/dannydev/.console-ninja/.bin:${env:PATH}"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
+    "GitLive.Issue tracker integration": "Disabled",
+    "terminal.integrated.env.windows": {},
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "figma.autocompleteBlocks": true,
+}
